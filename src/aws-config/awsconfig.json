@@ -1,0 +1,22 @@
+{
+    "Auth": {
+      "region": "ap-southeast-1",
+      "userPoolId": "ap-southeast-1_bR5sFr0Lz",
+      "userPoolWebClientId": "5u80k82cnvtp26tgm901iteb5s",
+      "mandatorySignIn": false,
+      "cookieStorage": {
+        "domain": "localhost",
+        "path": "/",
+        "expires": 365,
+        "secure": true
+      }
+    },
+    "API": {
+      "endpoints": [
+        {
+          "name": "demo",
+          "endpoint": "http://localhost:3000/demo"
+        }
+      ]
+    }
+  }

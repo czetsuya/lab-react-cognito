@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Amplify, { Auth, Hub, API } from 'aws-amplify';
+import awsconfig from './aws-config/awsconfig.json';
+import awsauth from './aws-config/awsauth.json';
+
+Amplify.configure(awsconfig)
+Auth.configure({ oauth: awsauth })
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
