@@ -1,8 +1,8 @@
 {
     "Auth": {
       "region": "ap-southeast-1",
-      "userPoolId": "ap-southeast-1_bR5sFr0Lz",
-      "userPoolWebClientId": "5u80k82cnvtp26tgm901iteb5s",
+      "userPoolId": "ap-southeast-1_FkDyldp1S",
+      "userPoolWebClientId": "5hqauv1lg0881qlb2akmjfocnd",
       "mandatorySignIn": false,
       "cookieStorage": {
         "domain": "localhost",
