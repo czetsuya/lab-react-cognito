@@ -41,6 +41,7 @@ const useAuthentication = () => {
         setIsLoading(false)
       })
       .catch(err => {
+        console.log("Login failed ", err);
         setUser(null)
         setIsAuthenticated(false)
         if (err === 'not authenticated') {
@@ -60,6 +61,7 @@ const useAuthentication = () => {
   // Subscribe to auth events
   useEffect(() => {
     const handler = ({ payload }) => {
+      console.log("auth.payload=", payload)
       switch (payload.event) {
         case 'configured':
         case 'signIn':
